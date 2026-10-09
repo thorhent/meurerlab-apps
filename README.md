@@ -11,7 +11,7 @@ flatpak install --user meurerlab io.github.thorhent.Ollaprof
 
 ## Aplicativos
 
-- **Ollaprof** (`io.github.thorhent.Ollaprof`) v0.10.26
+- **Ollaprof** (`io.github.thorhent.Ollaprof`) v0.10.26-1
 - **Docflow** (`io.github.thorhent.Docflow`) v1.8.26
 - **Clinical Ayudante** (`io.github.thorhent.CA`) v1.10.26
 - **Qiflow** (`io.github.thorhent.Qiflow`) v1.10.26
