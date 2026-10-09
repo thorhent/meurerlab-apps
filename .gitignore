@@ -1,0 +1,3 @@
+# Archivos de trabajo del repo ostree: no hacen falta para servirlo.
+.lock
+tmp/

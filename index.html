@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MeurerLab - repositório de aplicativos</title>
+  <style>
+    :root { --navy:#0B1437; --texto:#475467; --azul:#155EEF; --borde:#E4E7EC; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:#F7F9FC; color:var(--texto);
+           font:16px/1.7 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; }
+    main { max-width:720px; margin:0 auto; padding:48px 24px; }
+    h1 { color:var(--navy); font-size:1.9rem; margin:0 0 8px; }
+    h2 { color:var(--navy); font-size:1.15rem; margin:32px 0 8px; }
+    p { margin:8px 0; }
+    .terminal { background:var(--navy); color:#E7ECF7; border-radius:12px;
+                 padding:18px 20px; overflow-x:auto; }
+    .terminal code { font-family:ui-monospace,Menlo,Consolas,monospace; font-size:.92rem;
+                      white-space:pre; background:none; padding:0; }
+    ul { list-style:none; padding:0; display:grid; gap:14px; }
+    li { background:#fff; border:1px solid var(--borde); border-radius:12px; padding:14px 18px; }
+    .v { color:#98A2B3; font-size:.85rem; }
+    a { color:var(--azul); }
+    code { background:#F2F5FA; border-radius:6px; padding:2px 6px;
+            font-family:ui-monospace,Menlo,Consolas,monospace; font-size:.9rem; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>MeurerLab - repositório de aplicativos</h1>
+  <p>Repositório Flatpak com os aplicativos clínicos do MeurerLab.
+     Adicione o repositório uma única vez e receba as atualizações de todos
+     os aplicativos com <code>flatpak update</code>.</p>
+
+  <h2>Adicionar o repositório</h2>
+  <div class="terminal"><code>flatpak remote-add --if-not-exists --user meurerlab https://thorhent.github.io/meurerlab-apps/meurerlab.flatpakrepo</code></div>
+
+  <h2>Aplicativos</h2>
+  <ul>
+      <li><strong>Ollaprof</strong> <span class="v">v0.10.26</span><br><code>flatpak install --user meurerlab io.github.thorhent.Ollaprof</code></li>
+      <li><strong>Docflow</strong> <span class="v">v1.8.26</span><br><code>flatpak install --user meurerlab io.github.thorhent.Docflow</code></li>
+      <li><strong>Clinical Ayudante</strong> <span class="v">v1.10.26</span><br><code>flatpak install --user meurerlab io.github.thorhent.CA</code></li>
+      <li><strong>Qiflow</strong> <span class="v">v1.10.26</span><br><code>flatpak install --user meurerlab io.github.thorhent.Qiflow</code></li>
+      <li><strong>Olladoc</strong> <span class="v">v1.10.26</span><br><code>flatpak install --user meurerlab io.github.thorhent.Olladoc</code></li>
+  </ul>
+
+  <h2>Atualizar</h2>
+  <div class="terminal"><code>flatpak update</code></div>
+
+  <p style="margin-top:32px;font-size:.9rem;color:#98A2B3">
+     Instalação com um clique: abra o <code>.flatpakref</code> do aplicativo.</p>
+</main>
+</body>
+</html>

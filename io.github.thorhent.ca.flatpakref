@@ -1,0 +1,8 @@
+[Flatpak Ref]
+Title=Clinical Ayudante
+Name=io.github.thorhent.CA
+Branch=stable
+Url=https://thorhent.github.io/meurerlab-apps/
+RuntimeRepo=https://dl.flathub.org/repo/flathub.flatpakrepo
+IsRuntime=False
+GPGKey=mDMEasg3NhYJKwYBBAHaRw8BAQdAhSH59lGYlI3O78anmMXr2AdT/xv73FwskjpJoMv33/O0QU1ldXJlckxhYiBBcHBzIChmbGF0cGFrIHJlcG8gc2lnbmluZykgPHRheWxhbi5tZXVyZXJAb3V0bG9vay5jb20+iJMEExYKADsWIQRFIOJxUjNhT9gf/zbiVLhP+0rVHwUCasg3NgIbAwULCQgHAgIiAgYVCgkICwIEFgIDAQIeBwIXgAAKCRDiVLhP+0rVHwMHAP9pxgOMLnxLKcO0UvdSBgA+DO5kFyM5CNrqjj/mwHjkWAEAmBZTVC8gaLm5xVVC3xw2qS8ewQWOe5nHjdddSleuYAA=
